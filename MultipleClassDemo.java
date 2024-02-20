@@ -37,11 +37,11 @@ public class MultipleClassDemo {
 
         System.out.println("Modified Array ");
         System.out.println(Arrays.toString(arr));
-        TypeConversionDemo tc = new TypeConversionDemo();
+        TCDemo tc = new TCDemo();
         tc.typeConversion();
     }
 }
-  class TypeConversionDemo {
+  class TCDemo {
       public  void typeConversion() {
             Scanner inputObj = new Scanner(System.in);
 
