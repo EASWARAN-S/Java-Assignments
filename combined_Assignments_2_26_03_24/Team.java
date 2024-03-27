@@ -9,7 +9,7 @@ public class Team {
         this.name = name;
         this.city = city;
         this.division = division;
-        this.players = new ArrayList<>();
+        this.player = new ArrayList<>();
     }
 public void addPlayer(Player player) {
         players.add(player);
