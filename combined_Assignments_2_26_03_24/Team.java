@@ -1,17 +1,19 @@
 
 public class Team {
-    private Player player;
+    private List<Player> player;
     private String name;
     private String city;
     private String division;
 
-    public Team(String name, String city, String division, Player player) {
+    public Team(String name, String city, String division) {
         this.name = name;
         this.city = city;
         this.division = division;
-        this.player = player;
+        this.players = new ArrayList<>();
     }
-
+public void addPlayer(Player player) {
+        players.add(player);
+    }
     public Player getPlayer() {
         return this.player;
     }
