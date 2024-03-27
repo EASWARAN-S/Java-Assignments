@@ -12,15 +12,9 @@ public class Team {
         this.player = new ArrayList<>();
     }
 public void addPlayer(Player player) {
-        players.add(player);
+         this.player.add(player);
     }
-    public Player getPlayer() {
-        return this.player;
-    }
-
-    public void setPlayer(Player player) {
-        this.player = player;
-    }
+   
 
     public String getName() {
         return this.name;
