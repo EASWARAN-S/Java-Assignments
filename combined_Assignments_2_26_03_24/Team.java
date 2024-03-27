@@ -1,9 +1,9 @@
 
 public class Team {
-    private List<Player> player;
-    private String name;
-    private String city;
-    private String division;
+    public List<Player> player;
+    public String name;
+    public String city;
+    public String division;
 
     public Team(String name, String city, String division) {
         this.name = name;
