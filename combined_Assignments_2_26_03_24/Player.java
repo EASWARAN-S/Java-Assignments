@@ -1,8 +1,8 @@
 public class Player {
-    private String name;
-    private String position;
-    private int jerseyNumber;
-private Team team;
+    public String name;
+    public String position;
+    public int jerseyNumber;
+    public Team team;
     public void playGame() {
         System.out.println(name + "is playing the Game");
     }
